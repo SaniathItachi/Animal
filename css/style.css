@@ -400,8 +400,9 @@ another post section css starts here
 
 }
 .detail .detail-1 {
-	margin-top: 30px;
-	padding: 0px 23px;
+    border: 2px solid #d6d6d6;
+    border-top: none;
+    padding: 30px;
 }
 
 .detail .detail-1 h3{
