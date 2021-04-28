@@ -464,6 +464,10 @@ footer part css starts here
     background-color: #fcc302 !important;
     border: none !important;
     border-radius: none;
+
+}
+.end .form-control:focus{
+	outline: none;
 }
 
 .end .input-group-text {
@@ -498,4 +502,152 @@ footer part css starts here
 }
 .icon2 ul li a i:hover{
 	color: blue !important;
+}
+
+/************
+responsive
+*************/
+@media(min-width: 768px) and (max-width: 1024px) {
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 481px) and (max-width: 767px) {
+    .banner{
+    	padding-bottom: 0px !important;
+    }
+
+
+	.banner h1{
+		text-align: center;
+		font-size: 38px;
+	}
+
+	.banner p{
+		text-align: center;
+		font-size: 22px;
+	}
+	.banner .btn-primary {
+		margin-left: 40px;
+	}
+
+	.btn-danger {
+		margin-left: 155px;
+		margin-bottom: 40px;
+	}
+
+
+	.service-1 h1 {
+		font-size: 32px;
+		text-align: center;
+	}
+	.service-1 p{
+		text-align: center;
+		font-size: 22px;
+	}
+	.service-2 h1{
+		text-align: center;
+		font-size: 32px;
+	}
+	.service-2 p{
+		text-align: center;
+		font-size: 22px;
+	}
+	.service-2 button {
+		margin-right: 155px;
+	}
+	.service-1 p{
+		font-size: 20px;
+	}
+	.service-2 p{
+		font-size: 20px;
+	}
+	.topic p{
+		font-size: 20px;
+	}
+	
+	.topic-3 button{
+		margin-bottom: 20px;
+	}
+	.topic2 p{
+		font-size: 20px;
+	}
+	.history {
+		height: 150vh;
+
+	}
+	.post p{
+		font-size: 20px;
+	}
+	.detail .detail-1{
+		border: none;
+		margin-bottom: 20px;
+	}
+	.detail .detail-1 h3{
+		text-align: center;
+	}
+	.detail .detail-1 h5{
+		text-align: center;
+	}
+	.detail .detail-1 p{
+		text-align: center;
+		width: 65%;
+		margin-right: 0px;
+		margin-left: 70px;
+	}
+	.detail .detail-1 h4{
+		text-align: center;
+	}
+
+	.end{
+		text-align: center;
+	}
+	.end h5{
+		font-size: 16px;
+	}
+
+	.end .col-md-6{
+		text-align: center;
+		margin-top: 25px;
+	}
+	.end p{
+		font-size: 18px !important;
+
+
+	}
+	.input-group{
+		margin-left: 0px;
+	}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
 }
